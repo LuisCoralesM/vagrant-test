@@ -15,6 +15,8 @@ sieveSundaram n = map (\x -> x * 2 + 1) (filter (\x -> x `notElem` marked n) [1 
 
 ---
 
+--test
+
 remdups :: Eq a => [a] -> [a]
 remdups [] = []
 remdups [x] = [x]
